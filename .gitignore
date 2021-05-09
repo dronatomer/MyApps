@@ -1,0 +1,8 @@
+/.idea
+dailymotion-player-sdk-android.iml
+
+/local.properties
+/build
+/*/build
+/*/*.iml
+.gradle

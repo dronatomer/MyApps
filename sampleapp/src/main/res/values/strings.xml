@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ramayana(रामायण)</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!--test-->
+<!--        <string name="admob_init">ca-app-pub-5735447784291841~8704203640</string>-->
+<!--        <string name="admob_banner">ca-app-pub-3940256099942544/6300978111</string>-->
+<!--        <string name="admob_banner2">ca-app-pub-3940256099942544/6300978111</string>-->
+<!--        <string name="admob_reward">ca-app-pub-3940256099942544/5224354917</string>-->
+<!--        <string name="admob_interstitial">ca-app-pub-3940256099942544/1033173712</string>-->
+
+    <!--real-->
+    <string name="admob_init">ca-app-pub-5591223880881512~6909988785</string>
+    <string name="admob_banner">ca-app-pub-5591223880881512/7936716727</string>
+    <string name="admob_banner2">ca-app-pub-5591223880881512/7936716727</string>
+    <string name="admob_reward">ca-app-pub-5591223880881512/2931802051</string>
+    <string name="admob_interstitial">ca-app-pub-5591223880881512/3997471714</string>
+    <string name="fb_interstitial">920020968342777_920021801676027</string><!--rama-->
+    <string name="fb_banner">920020968342777_1286353925042811</string><!--rama-->
+
+    <string name="number_of_videos">Number of videos:</string>
+    <string name="status">Status:</string>
+    <string name="list_empty">List is empty!</string>
+    <string name="no_fav">No favorite items</string>
+    <string name="no_notification">No notifications found</string>
+    <integer name="viewId">100</integer>
+    <string name="more">More>></string>
+
+    <string name="privacy_policy">"&lt;h2>&lt;strong>Ramayana(रामायण) - Ramanand Sagar' Apps Privacy Policy&lt;/strong>&lt;/h2>
+
+            &lt;p>
+                We, at Hindi  respect your privacy. We don't collect, use, store and disclose the personal
+                identifying data and information of any User of Ramayana (App).&lt;/p>
+
+            &lt;div>
+                &lt;h3>&lt;strong>What data is collected&lt;/strong>&lt;/h3>
+                User is able to use the App anonymously.
+                We may collect some Non-personal identification information for technical
+                purposes.
+                &lt;p class=para>The used and collected data include:&lt;/p>
+                &lt;ul>
+                    &lt;li>Your IP address &amp; &lt;/li>
+                    &lt;li>Data about your operating system and browser&lt;/li>
+                &lt;/ul>
+
+                &lt;h3>&lt;strong>How we use User's information&lt;/strong>&lt;/h3>
+                We use the Non-personal identification information for technical and analytics purpose.
+                And we use the personal identification information only to enhance the User experience of the App.
+
+                &lt;h3>&lt;strong>Security and data share&lt;/strong>&lt;/h3>
+                We are committed to protect your information and we undertake to take all reasonable steps in order to
+                protect the security of your information. We do not sell, trade, or rent User's personal identification
+                information to others. We do not share your personal information except as approved by you.
+
+                &lt;h3>&lt;strong>Changes to this privacy policy&lt;/strong>&lt;/h3>
+                The privacy policy and this page content may change over time. We will revise the updated date at the
+                bottom of this page each time we perform an update.
+
+                &lt;h3>&lt;strong>Contacting us&lt;/strong>&lt;/h3>
+                If you have any question about this Policy please contact us.
+
+                &lt;p class=para>&lt;strong>This document was last updated on July 6, 2019&lt;/strong>&lt;/p>
+
+            &lt;/div>
+"</string>
+    <string name="disclaimer_msg1">app does not stream any of the channels included in its
+    website/app. All the streaming links are from third parties available free on the internet. We are not
+    responsible for its contents. If any one found that we are violating by broadcasting any copyright protected
+    channel. please email us at
+    </string>
+
+    <string name="disclaimer_msg2">with the channel name, we will remove that channel from this app.</string>
+    <string name="drawer_header_text">Ramayana(रामानंद सागर)</string>
+    <string name="no_internet">Please check your internet connection!</string>
+    <string name="disclaimer">Disclaimer</string>
+    <string name="title">No Internet</string>
+    <string name="live_broadcast">On Air</string>
+    <string name="no_more_stations">No more stations</string>
+    <string name="not_streaming">The station is not reachable at this time or is currently offline. Please try again afetr sometimes or try other stations.</string>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="launch">Go to video activiy</string>
+
+    <string name="toggle_controls">Toggle controls</string>
+    <string name="show_controls">Show controls</string>
+    <string name="hide_controls">Hide controls</string>
+
+    <string name="toggle_play_pause">Toggle\nplay / pause</string>
+    <string name="play">play</string>
+    <string name="pause">pause</string>
+
+    <string name="seek_forward">Seek\nforward</string>
+    <string name="seek_backward">Seek\nbackward</string>
+    <string name="seek_value_hint">value</string>
+    <string name="seek_unit">seconds</string>
+
+    <string name="mute">mute</string>
+    <string name="unmute">unmute</string>
+    <string name="volume">Set\nvolume to</string>
+    <string name="volume_value_hint">Between\n0F and 1F</string>
+
+    <string name="load_video">Load video</string>
+    <string name="video_id_value_hint">videoId</string>
+    <string name="playlist_id_value_hint">playlistId</string>
+
+    <string name="scale_mode">Scale mode</string>
+    <string name="apply_scale_mode">Set scaleMode</string>
+
+    <string name="quality">Quality</string>
+    <string name="quality_unit">dp</string>
+
+    <string name="value">value</string>
+    <string name="player_events_trace">Player events trace</string>
+    <string name="select_video_quality">Select video quality</string>
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:paddingTop="@dimen/padding15dp"
+    android:paddingRight="@dimen/padding10dp"
+    android:paddingLeft="@dimen/padding10dp"
+    android:paddingBottom="@dimen/padding5dp">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_circular_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_launcher_round"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></de.hdodenhof.circleimageview.CircleImageView>
+
+
+
+    <TextView
+        android:id="@+id/radio_name"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Radio name"
+        android:textSize="@dimen/text_size10sp"
+        android:fontFamily="@font/magnificent_fonts"
+        android:textColor="@color/md_grey_700"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/margin5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_circular_image"></TextView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
