@@ -395,7 +395,7 @@ public class MainActivity extends AppCompatActivity implements OnItemSelected, N
     public void loadPlayer(int position) {
         if (utilityClass.checkInternetConnection()) {
             Intent intent = new Intent(MainActivity.this, SampleActivity.class);
-            intent.putExtra(AppConstants.VidId, videosList.get(pgit add osition).getId());
+            intent.putExtra(AppConstants.VidId, videosList.get(position).getId());
             intent.putExtra(AppConstants.ListID, listIds);
             intent.putExtra(AppConstants.VIDEO_LIST, (Serializable) videosList);
             intent.putExtra(AppConstants.POSITION, position);
